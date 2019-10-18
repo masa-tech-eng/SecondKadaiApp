@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="practice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,15 +65,15 @@
         <!--Result View Controller-->
         <scene sceneID="Ie7-eb-ign">
             <objects>
-                <viewController id="aWk-eO-aTe" customClass="ResultViewController" customModule="practice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aWk-eO-aTe" customClass="ResultViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pYs-lt-jdn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSa-5I-uod">
-                                <rect key="frame" x="124" y="389.5" width="72" height="42"/>
+                                <rect key="frame" x="134.5" y="389.5" width="51" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="GMx-Zs-F5D" kind="unwind" unwindAction="unwind:" id="1fu-Lh-xow"/>
                                 </connections>
